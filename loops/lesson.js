@@ -84,3 +84,8 @@ while (ufi < userForms.length){
     console.log("processing ", userForms[ufi])
     ufi++;
 }
+
+//For loops
+// good for counting go through lists
+//While loops
+//based on condition loop, easy to forget incrementer or get stuck in infinite loop
