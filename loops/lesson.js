@@ -59,11 +59,28 @@ let userForms = [
 
 //make a for loop to process my forms if they have errors then resubmit their form
 for(let index = 0; index < userForms.length; index++){
-    debugger
+    // debugger
     console.log("index", index, "processing", userForms[index])
     // if there are errors fix them and re-submit
     if(userForms[index].errorsDetected > 0){
         console.log("fixing", userForms[index])
         console.log("fixed, submitted form")
     }
+}
+
+console.log("while loop output")
+//show while loops since activity uses that
+let c = 0
+
+//while the condition is true execute this stuff
+while(c < 10){
+    console.log(c)
+    //increment
+    c++
+}
+
+let ufi = 0
+while (ufi < userForms.length){
+    console.log("processing ", userForms[ufi])
+    ufi++;
 }
